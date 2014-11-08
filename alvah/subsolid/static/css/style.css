@@ -180,7 +180,7 @@ a:focus {
 }
 
 .mtb {
-	margin-top: 80px;
+	margin-top: 20px;
 	margin-bottom: 80px;
 }
 
@@ -240,10 +240,10 @@ a:focus {
 
 /* Portfolio Wrap */
 #portfoliowrap {
-	padding-top: 60px;
+	padding-top: 10px;
 	margin-bottom: 60px;
 	display: block;
-	text-align: center
+	text-align: center;
 }
 
 #portfoliowrap h3 {
@@ -256,11 +256,11 @@ a:focus {
 	display:block;
 }
 
-
+.he-view { height: 188px;}
 .portfolio-item .title:before {border-radius:0; display:none}
 .portfolio-item p {margin:0px 0 30px;}
 .portfolio-item h3 {margin:-10px 0 10px; font-size:16px; text-transform:uppercase;}
-
+.portfolio-item { height: 188px;}
 
 .tpl6 h3
 {
@@ -288,34 +288,30 @@ a:focus {
 
 /* Testimonials Wrap */
 #twrap {
-	background: url(../img/t-back.jpg) no-repeat center top;
-	margin-top: 0px;
-	padding-top:60px;
+	background: url(../img/alvah_drawing3.png) no-repeat center center;
+	margin-top: 35px;
+	padding-top: 45px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 450px;
+	min-height: 550px;
 	width: 100%;
 	
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
+    -webkit-background-size: auto 100%;
+    -moz-background-size: auto 100%;
+    -o-background-size: auto 100%;
+    background-size: auto 100%;
+   
+   background-color: #428bca; 
 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
+    }
 
-#twrap i {
-	font-size: 50px;
-	color: white;
-	margin-bottom: 25px;
+#twrap .container {
+    text-align: left;
 }
 
 #twrap p {
-	color: white;
+	color: #333;
 	font-size: 15px;
 	line-height: 30px;
 }
@@ -365,7 +361,6 @@ a:focus {
 #blue {
 	background: #00b3fe;
 	margin-top: 60px;
-	margin-bottom: 60px;
 	padding-top: 25px;
 	padding-bottom: 25px;
 }
@@ -457,4 +452,12 @@ csmall2 {
 .share i {
 	padding-right: 15px;
 	font-size: 18px;
+}
+a.browse span{
+    width: 26px !important;
+    height: 22px !important;
+    background-image:url('/static/grappelli/img/icons/icon-fb_show.png') !important;
+}
+.nav-footer {
+    margin: 0;
 }
