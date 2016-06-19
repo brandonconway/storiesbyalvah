@@ -6,4 +6,5 @@
 local_settings.py
 /static
 env
-solid
+env3
+subsolid
